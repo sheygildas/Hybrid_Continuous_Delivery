@@ -8,8 +8,31 @@
 - [Tools](#hammer_and_wrench-Tools)
 - [Architecture of this project](#house-architecture-of-this-project)
 - [Steps to execute the project](#zap-steps-to-execute-the-project)
-  - [Login to AWS Account ](#key-login-to-aws-account )
-  
+  - [Continuous Integration Setup](#package-continuous-integration-setup)
+  - [Login to AWS Account ](#key-login-to-aws-account)
+  - [RDS SG](#package-rds-sg)
+  - [Beanstalk and RDS Setup](#package-beanstalk-and-rds-setup)
+  - [RDS Initialization and SG update](#package-rds-initialization-and-sg-update)
+  - [ElasticCache and Active MQ](#package-elasticcache---and-active-mq)
+  - [Cloud Token](#package-cloud-token)
+  - [Sonar Cloud Integration with Jenkins](#package-sonar-cloud-integration-with-jenkins)
+  - [Sonar Cloud Token](#package-sonar-cloud-token)
+  - [Sonar.organization in properties file](#package-sonarorganization-in-properties-file)
+  - [Sonar Cloud Scanning Job](#package-sonar-cloud-scanning-job)
+  - [IAM User for Jenkins authorization](#package-iam-user-for-jenkins-authorization)
+  - [CodeBuild policy](#package-codebuild-policy)
+  - [S3 bucket policy](#package-s3-bucket-policy)
+  - [Update Bean URL in Parameter Store for CodeBuild job](#package-update-bean-url-in-parameter-store-for-codebuild-job)
+  - [Deploy to Beanstalk Job](#package-deploy-to-beanstalk-job)
+  - [Software Testing Job with AWS Code Build](#package-software-testing-job-with-aws-code-build)
+  - [Plugin](#package-plugin)
+  - [Job Setup](#package-job-setup)
+  - [Changes in CodeBuild](#package-changes-in-codebuild)
+  - [Update Buildspec file](#package-update-buildspec-file)
+  - [Store URL variable in Parameter store](#package-store-url-variable-in-parameter-store)
+  - [Connect all jobs in Jenkins Pipeline](#package-connect-all-jobs-in-jenkins-pipeline)
+  - [Test](#package-test)
+  - [Prod Deploy Job](#package-prod-deploy-job)
 - [Verify from browser](#earth_africa-verify-from-browser) 
 - [Resources](#page_facing_up-resources)
 - [Credit/Acknowledgment](#star2-creditacknowledgment)
@@ -76,6 +99,16 @@
 </div>
 <br/>
 
+
+### :package: Continuous Integration Setup
+
+
+<br/>
+<div align="right">
+    <b><a href="#Project-03">↥ back to top</a></b>
+</div>
+<br/>
+
 ### :key: Login to AWS Account
 
 <br/>
@@ -85,6 +118,30 @@
 <br/>
 
 
+
+RDS SG
+Beanstalk and RDS Setup
+RDS Initialization and SG update
+ElasticCache   and Active MQ 
+Cloud Token
+Sonar Cloud Integration with Jenkins
+Sonar Cloud Token
+Sonar.organization in properties file
+Sonar Cloud Scanning Job
+IAM User for Jenkins authorization
+CodeBuild policy
+S3 bucket policy
+Update Bean URL in Parameter Store for CodeBuild job
+Deploy to Beanstalk Job
+Software Testing Job with AWS Code Build
+Plugin
+Job Setup
+Changes in CodeBuild
+Update Buildspec file
+Store URL variable in Parameter store
+Connect all jobs in Jenkins Pipeline.
+Test
+Prod Deploy Job
 
 
 ## :earth_africa: Verify from browser
